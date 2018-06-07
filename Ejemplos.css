@@ -1,0 +1,84 @@
+body{
+	background-image: url(fondo3.jpg);
+	font-family: sans-serif;
+}
+
+h1{
+	font-family: sans-serif;
+	color: rgb(42, 39, 96);
+	text-align: center;
+	text-shadow: 2px 2px 3px rgb(124, 120, 201);
+}
+
+
+
+body div div{
+
+
+	width: 25%;
+	float: left;
+	/* clear: both; */
+	margin: 35px;
+
+}
+div,p{
+	border-radius: 10px;
+
+}
+body div div {
+	background-color: rgba(44, 88, 156, 0.7);
+	padding: 15px;
+	color: #fff;
+	text-align: center;
+}
+button{
+	border-radius: 3px;
+	background-color: rgba(231, 21, 21, 0.85);
+	border-color: rgba(231, 21, 21, 0.85);
+	color: white;
+	width: 100px;
+}
+
+.respuesta{
+	color: #ac1d1d;
+	width: 88%;
+	margin: auto;
+	font-size: 20px;
+	background-color: rgba(213, 192, 191, 0.85)
+
+}
+
+
+#conversionDeDatos, #ciclos {
+	float: right;
+}
+
+ .shiftYUnshift{
+	clear: both;
+	width: 42%;
+	background-color: rgba(18, 115, 25, 0.88)
+}
+
+.concatYSlice{
+	clear: right;
+	width: 42%;
+	background-color: rgba(18, 115, 25, 0.88)
+}
+
+#tiposDeDatos, #condicionales, #capturarErrores, #funciones, #operadores, .popYPush{
+	background-color: rgba(38, 31, 48, 0.88)
+}
+
+#conversionDeDatos, #ciclos{
+	background-color: rgba(84, 43, 102, 0.88)
+}
+/* .contenedor{
+	width: 90%;
+	background-color: rgba(44, 88, 156, 0.7);
+	margin: auto;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	border: 3px solid black;
+	border-radius: 10px;
+} */

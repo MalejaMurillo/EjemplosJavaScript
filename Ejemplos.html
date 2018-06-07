@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Ejemplos de JavaScript</title>
+	<link rel="stylesheet" href="Ejemplos.css">
+
+</head>
+
+<body>
+	<div class="General">
+
+		<h1>Ejemplos De JavaScript</h1>
+		<div id="variables">
+			<h2>JavaScript Variables</h2>
+
+			<p>En este ejemplo, x, y, y z son variables.</p>
+
+			<p id="demo" class="respuesta"></p>
+		</div>
+
+		<div id="tiposDeDatos">
+			<h2>JavaScript Tipos de datos </h2>
+
+			<p>JavaScript tiene tipos dinámicos. Esto significa que la misma variable se puede usar para contener diferentes tipos de datos:</p>
+
+			<p id="demoTipos" class="respuesta"></p>
+		</div>
+
+		<div id="conversionDeDatos">
+			<h2>Conversión de datos</h2>
+
+			<p>El metodo string() puede convertir un número en string</p>
+
+			<p id="demoConver" class="respuesta"></p>
+
+			<p>El metodo toString() convierte un número en string.</p>
+
+			<p id="demoToString" class="respuesta"></p>
+
+			<p>Se usan los mismos para convertir de boolean o de date a string</p>
+
+			<p>La función number() convierte variables a numeros</p>
+
+			<p id="demoNumber" class="respuesta"></p>
+
+			<p>Number() tambieén puede convertir una fecha a número</p>
+
+			<p>2018-06-06: </p>
+			<p id="demoDateNumber" class="respuesta"> </p>
+		</div>
+
+		<div id="literales">
+
+			<h2>JavaScript Arrays</h2>
+
+			<p id="demoArrays" class="respuesta"></p>
+
+			<h2>JavaScript Boolean</h2>
+			<p id="demoBoolean" class="respuesta"></p>
+
+			<h2>Creando un objeto de JavaScript</h2>
+
+			<p id="demoObjetoC" class="respuesta"></p>
+
+			<h2>Creando el mismo objeto de JavaScript Usando la palabra new</h2>
+
+			<p id="demoObjetoN" class="respuesta"></p>
+
+			<h2>The JavaScript <b>this</b> Keyword</h2>
+
+			<p>In this example, <b>this</b> represents the <b>person</b> object.</p>
+			<p>Because the person object "owns" the fullName method.</p>
+
+			<p id="demoObjetoM" class="respuesta"></p>
+
+			<h2>RegExp</h2>
+			<p>Search a string for "W3Schools", and display the position of the match:</p>
+
+			<button onclick="myFunction1()">Try it</button>
+
+			<p id="demoRegExSearch" class="respuesta"></p>
+
+			<p>Replace "microsoft" with "W3Schools" in the paragraph below:</p>
+
+			<button onclick="myFunction2()">Try it</button>
+
+			<p id="demoReplace" class="respuesta">Please visit Microsoft and Microsoft!</p>
+
+			<p>Search for an "e" in the next paragraph:</p>
+
+			<p id="p01" class="respuesta">The best things in life are free!</p>
+
+			<button onclick="myFunction3()">Try it</button>
+
+			<p id="demoTest" class="respuesta"></p>
+
+			<h2>String</h2>
+
+			<p>The length property returns the length of a string:</p>
+
+			<p id="demoLength" class="respuesta"></p>
+
+			<h2>Never Create Strings as objects.</h2>
+			<p>JavaScript objects cannot be compared.</p>
+
+			<p id="demoStringO" class="respuesta"></p>
+
+		</div>
+
+		<div id="condicionales">
+
+			<h2>Condicional if</h2>
+			<p>Click the button to display a time-based greeting:</p>
+
+			<button onclick="myFunction4()">Try it</button>
+
+			<p id="demoIf" class="respuesta"></p>
+
+			<h2>Switch</h2>
+			<p id="demoSwitch" class="respuesta"></p>
+
+		</div>
+
+		<div id="capturarErrores">
+
+			<h2>Try Catch</h2>
+			<p id="demoTryC" class="respuesta"></p>
+
+			<h2>Try-Catch-Finally - Throw </h2>
+			<p>Please input a number between 5 and 10:</p>
+
+			<input id="demoTry" type="text">
+			<button type="button" onclick="myFunction5()">Test Input</button>
+
+			<p id="resultado" class="respuesta"></p>
+		</div>
+
+		<div id="ciclos">
+
+			<h2>JavaScript Ciclos</h2>
+
+			<h3>Ciclo For</h3>
+			<p id="demoFor" class="respuesta"></p>
+
+			<p>The for/in statement loops through the properties of an object.</p>
+
+			<p id="demoForIn" class="respuesta"></p>
+			<p>For Of</p>
+			<p id="demoForOf" class="respuesta"></p>
+
+			<h3>Ciclo While</h3>
+			<p id="demoWhile" class="respuesta"></p>
+
+			<h3>Continue</h3>
+			<p>A loop which will skip the step where i = 3.</p>
+
+			<p id="demoContinue" class="respuesta"></p>
+
+			<h3>Break</h3>
+			<p>A loop with a break.</p>
+
+			<p id="demoBreak" class="respuesta"></p>
+
+			<h3>Label</h3>
+			<p id="demoLabel" class="respuesta"></p>
+
+
+
+		</div>
+
+		<div id="funciones">
+
+			<h2>JavaScript Functions</h2>
+
+			<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+			<p id="demoFunciones" class="respuesta"></p>
+
+			<p>Accessing a function without () will return the function definition instead of the function result:</p>
+			<p id="demoSinParentesis" class="respuesta"></p>
+
+
+		</div>
+
+		<div id="operadores">
+			<h2>JavaScript Operators</h2>
+
+			<p>The assignment operator += can concatenate strings.</p>
+
+			<p id="demoOperadores" class="respuesta"></p>
+
+			<p>Operators with destructuring</p>
+			<p id="demoOWDestruc" class="respuesta"></p>
+		</div>
+
+		<div class="popYPush">
+
+			<h2>Métodos Arrays</h2>
+			<h3>pop()</h3>
+
+			<p>The pop() method removes the last element from an array.</p>
+
+			<p>The return value of the pop() method is the removed item.</p>
+
+			<p id="demo1" class="respuesta"></p>
+			<p id="demo2" class="respuesta"></p>
+			<p id="demo3" class="respuesta"></p>
+
+			<h3>push()</h3>
+
+			<p>The push() method returns the new array length.</p>
+
+			<button onclick="myFunction10()">Try it</button>
+
+			<p id="demo4" class="respuesta"></p>
+			<p id="demo5" class="respuesta"></p>
+		</div>
+
+		<div class="shiftYUnshift">
+
+			<h2>shift()</h2>
+
+			<p>The shift() method returns the element that was shifted out.</p>
+
+			<p id="demo6" class="respuesta"></p>
+			<p id="demo7" class="respuesta"></p>
+			<p id="demo8" class="respuesta"></p>
+
+			<h2>unshift()</h2>
+
+			<p>The unshift() method returns the length of the new array:</p>
+
+			<p id="demo9" class="respuesta"></p>
+			<p id="demo10" class="respuesta"></p>
+			<p id="demo11" class="respuesta"></p>
+
+			<p><b>Note:</b> The unshift() method does not work properly in Internet Explorer 8 and earlier, the values will be inserted, but the return value will be <em>undefined</em>.</p>
+
+
+		</div>
+
+		<div class="concatYSlice">
+
+			<h2>concat()</h2>
+
+			<p>The concat() method is used to merge (concatenate) arrays:</p>
+
+			<p id="demoConcat" class="respuesta"></p>
+
+			<h2>slice()</h2>
+
+			<p>This example slices out a part of an array starting from array element 3 ("Apple")</p>
+
+			<p id="demoSlice" class="respuesta"></p>
+
+
+		</div>
+
+
+
+
+		<script type="text/javascript" src="Ejmplos.js">
+		</script>
+
+	</div>
+</body>
+
+</html>
